@@ -1,0 +1,22 @@
+.struct_box_menu {
+display: flex;
+align-items: center;
+justify-content:space-between;
+    width: 100px;
+    height: 50px;
+
+
+}
+li #Contact{
+    
+}
+li{
+    margin: 15px;
+    
+}
+
+.info_text{
+    margin-right: 15px;
+ text-align: center;
+ text-rendering: auto;
+}
