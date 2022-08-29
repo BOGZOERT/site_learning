@@ -1,22 +1,50 @@
-.struct_box_menu {
-display: flex;
-align-items: center;
-justify-content:space-between;
-    width: 100px;
-    height: 50px;
 
+body{
+background-color: darkslategrey;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    border: none;
+    list-style: none;
 
 }
+
+.grid_item{
+    display: block;
+    justify-content: space-between;
+}
+    
+main{   
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 40px;
+    display: flex;
+    
+}
+
+.grid_item > div{
+    background-color: red ;
+    flex: 0 32%;
+    height: 100%;
+    
+    
+}
+
 li #Contact{
     
 }
+
 li{
     margin: 15px;
-    
 }
 
 .info_text{
     margin-right: 15px;
- text-align: center;
- text-rendering: auto;
+    text-align: center;
+    text-rendering: auto;
 }
